@@ -8,14 +8,13 @@
 
 import Foundation
 
-struct horizon : Decodable {
-    let array : [testing]
+struct info : Decodable {
+    let dogs : [testing]
 }
 struct testing : Decodable{
-    let creature : String?
-    let resists : String?
-    let vulnerability : String?
-    let descr : String?
+    let name_ru : String?
+    let name_en : String?
+    let descr_ru : String?
+    let descr_en : String?
     let imageUrl : String?
 }
-
