@@ -79,13 +79,13 @@ class FightStrategyViewController: UIViewController, UICollectionViewDelegate, U
     }
     
     func getData(){
-        let url = "https://raw.githubusercontent.com/soysmile/AllAboutMyDog/master/MoreAboutYourDog/dogs.json"
+        let url = "https://raw.githubusercontent.com/soysmile/HorizonZeroDawn/master/HorizonZeroDown/GameAssets/horizon.json"
         guard let urlPath = URL(string: url) else {return}
         URLSession.shared.dataTask(with: urlPath) { (data, response, error) in
             guard let data = data else{return}
             do{
-                let courses = try JSONDecoder().decode(horizon.self, from: data)
-                self.test = courses.array
+                let courses = try JSONDecoder().decode(info.self, from: data)
+                self.test = courses.horizon
                 DispatchQueue.main.async {
                     
                     self.collectionView.reloadData()
