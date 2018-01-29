@@ -8,8 +8,8 @@
 
 import Foundation
 
-struct info : Decodable {
-    let dogs : [testing]
+struct horizon : Decodable {
+    let array : [testing]
 }
 struct testing : Decodable{
     let name_ru : String?
