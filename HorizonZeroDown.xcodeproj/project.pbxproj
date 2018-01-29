@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5337AAFD201C8A15003EA037 /* horizon.json in Resources */ = {isa = PBXBuildFile; fileRef = 5337AAFC201C8A15003EA037 /* horizon.json */; };
+		5337AAFF201C8EE7003EA037 /* FightCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337AAFE201C8EE7003EA037 /* FightCollectionViewCell.swift */; };
+		5337FE43201F558D0099AA17 /* storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337FE42201F558D0099AA17 /* storage.swift */; };
 		53626F0C2019D72800F67E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53626F0B2019D72800F67E8A /* AppDelegate.swift */; };
 		53626F0E2019D72800F67E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53626F0D2019D72800F67E8A /* ViewController.swift */; };
 		53626F112019D72900F67E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53626F0F2019D72900F67E8A /* Main.storyboard */; };
 		53626F132019D72900F67E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53626F122019D72900F67E8A /* Assets.xcassets */; };
 		53626F162019D72900F67E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53626F142019D72900F67E8A /* LaunchScreen.storyboard */; };
+		53626F1F2019DDD100F67E8A /* HorizonZeroDawn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53626F1E2019DDD100F67E8A /* HorizonZeroDawn.mp3 */; };
+		53626F232019E1EA00F67E8A /* WallpapersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53626F222019E1EA00F67E8A /* WallpapersViewController.swift */; };
+		53626F252019E1FA00F67E8A /* FightStrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53626F242019E1FA00F67E8A /* FightStrategyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5337AAFC201C8A15003EA037 /* horizon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = horizon.json; sourceTree = "<group>"; };
+		5337AAFE201C8EE7003EA037 /* FightCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightCollectionViewCell.swift; sourceTree = "<group>"; };
+		5337FE42201F558D0099AA17 /* storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storage.swift; sourceTree = "<group>"; };
 		53626F082019D72800F67E8A /* HorizonZeroDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizonZeroDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53626F0B2019D72800F67E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53626F0D2019D72800F67E8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		53626F122019D72900F67E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53626F152019D72900F67E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53626F172019D72900F67E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53626F1E2019DDD100F67E8A /* HorizonZeroDawn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HorizonZeroDawn.mp3; sourceTree = "<group>"; };
+		53626F222019E1EA00F67E8A /* WallpapersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpapersViewController.swift; sourceTree = "<group>"; };
+		53626F242019E1FA00F67E8A /* FightStrategyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightStrategyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,28 @@
 		53626F0A2019D72800F67E8A /* HorizonZeroDown */ = {
 			isa = PBXGroup;
 			children = (
+				53626F1D2019DDA000F67E8A /* GameAssets */,
 				53626F0B2019D72800F67E8A /* AppDelegate.swift */,
 				53626F0D2019D72800F67E8A /* ViewController.swift */,
 				53626F0F2019D72900F67E8A /* Main.storyboard */,
 				53626F122019D72900F67E8A /* Assets.xcassets */,
 				53626F142019D72900F67E8A /* LaunchScreen.storyboard */,
 				53626F172019D72900F67E8A /* Info.plist */,
+				53626F222019E1EA00F67E8A /* WallpapersViewController.swift */,
+				53626F242019E1FA00F67E8A /* FightStrategyViewController.swift */,
+				5337AAFE201C8EE7003EA037 /* FightCollectionViewCell.swift */,
+				5337FE42201F558D0099AA17 /* storage.swift */,
 			);
 			path = HorizonZeroDown;
+			sourceTree = "<group>";
+		};
+		53626F1D2019DDA000F67E8A /* GameAssets */ = {
+			isa = PBXGroup;
+			children = (
+				53626F1E2019DDD100F67E8A /* HorizonZeroDawn.mp3 */,
+				5337AAFC201C8A15003EA037 /* horizon.json */,
+			);
+			path = GameAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +149,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53626F1F2019DDD100F67E8A /* HorizonZeroDawn.mp3 in Resources */,
 				53626F162019D72900F67E8A /* LaunchScreen.storyboard in Resources */,
 				53626F132019D72900F67E8A /* Assets.xcassets in Resources */,
 				53626F112019D72900F67E8A /* Main.storyboard in Resources */,
+				5337AAFD201C8A15003EA037 /* horizon.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +166,10 @@
 			files = (
 				53626F0E2019D72800F67E8A /* ViewController.swift in Sources */,
 				53626F0C2019D72800F67E8A /* AppDelegate.swift in Sources */,
+				53626F232019E1EA00F67E8A /* WallpapersViewController.swift in Sources */,
+				5337FE43201F558D0099AA17 /* storage.swift in Sources */,
+				53626F252019E1FA00F67E8A /* FightStrategyViewController.swift in Sources */,
+				5337AAFF201C8EE7003EA037 /* FightCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

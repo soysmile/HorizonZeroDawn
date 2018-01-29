@@ -1,0 +1,15 @@
+{
+    "horizon":[
+            {
+            "creature": "Watchers",
+            "resists": "damage",
+            "vulnerability": "fire",
+            "descr": "short description",
+            "imageUrl": "watchers_1"
+            }
+            ]
+    
+    
+}
+
+
