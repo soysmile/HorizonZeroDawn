@@ -1,12 +1,12 @@
 {
     "horizon":[
-            {
-            "creature": "Watchers",
-            "resists": "damage",
-            "vulnerability": "fire",
-            "descr": "short description",
-            "imageUrl": "https://vignette.wikia.nocookie.net/horizonzerodawn/images/a/ac/Дуголоб.PNG/revision/latest/scale-to-width-down/620?cb=20170307085813&path-prefix=ru"
-            }
+                {
+                "creature": "Watchers",
+                "resists": "damage",
+                "vulnerability": "fire",
+                "descr": "short description",
+                "imageUrl": "https://media.playstation.com/is/image/SCEA/horizon-zero-dawn-impact-poster-ps4-us-07feb17?$twoColumn_Image$"
+                }
             ]
     
     
